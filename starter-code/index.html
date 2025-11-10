@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Frontend Mentor | Meet landing page</title>
+</head>
+<body>
+    <!-- Header global -->
+    <header class="site-header">
+      <nav class="nav" aria-label="Principal">
+        <a class="nav-brand" href="#">
+          <img src="assets/logo.svg" alt="Meet - Inicio">
+        </a>
+      </nav>
+    </header>
+
+    <!-- Contenido principal del documento -->
+    <main id="main-content">
+
+      <!-- HERO -->
+      <section class="hero" aria-labelledby="hero-title">
+        <!-- Imagen única para móvil / tablet -->
+        <img  class="hero-center" src="assets/tablet/image-hero.png" alt="" aria-hidden="true">
+
+        <!-- Imagenes laterales para desktop -->
+        <img class="hero-side hero-side-left" src="assets/desktop/image-hero-left.png" alt="" aria-hidden="true">
+        <img class="hero-side hero-side-right" src="assets/desktop/image-hero-right.png" alt="" aria-hidden="true">
+
+        <div class="hero-content">
+          <h1 id="hero-title" class="hero-title">Group Chat for Everyone</h1>
+          <p class="hero-text">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+          <div class="hero-actions">
+            <a href="#" class="btn btn-blue">Download <span>v1.3</span></a>
+            <a href="#what-is" class="btn btn-purple">What is it?</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAIN CONTENT -->
+      <section class="features" aria-labelledby="features-title">
+
+          <!-- Divisor decorativo 01-->
+        <div class="divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-dot">01</span>
+        </div>
+
+        <h2 id="features-title" class="visually-hidden">Modern features</h2>
+
+        <!-- Lista semantica de imágenes-->
+        <ul class="features-grid">
+          <li class="features-item">
+            <figure>
+              <img src="assets/desktop/image-woman-in-videocall.jpg" alt="Mujer en videollamada">
+          </figure>
+          </li>
+          <li class="features-item">
+            <figure>
+              <img src="assets/desktop/image-women-videochatting.jpg" alt="Amigas conversando por video">
+          </figure>
+          </li>     
+          <li class="features-item">
+            <figure>
+              <img src="assets/desktop/image-men-in-meeting.jpg" alt="Reunión de trabajo">
+          </figure>
+          </li>     
+          <li class="features-item">
+            <figure>
+            <img src="assets/desktop/image-man-texting.jpg" alt="Hombre enviando mensajes">
+          </figure>
+          </li>               
+        </ul>
+
+        <div id="what-is" class="features-content">
+          <p class="overline">Built for modern use</p>
+          <h2 class="features-title">Smarter meetings, all in one place</h2>
+          <p class="features-text">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+        </div>
+      </section>
+
+      <!-- FOOTER CTA -->
+      <section class="cta" aria-labelledby="cta-title">
+
+        <!-- Divisor decorativo 02-->
+        <div class="divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-dot">02</span>
+        </div>
+        <div class="cta-inner">
+          <h2 id="cta-title" class="cta-title">Experience more together</h2>
+          <p class="cta-text">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+          <a class="btn btn-purple" href="#">Download <span>v1.3</span></a>
+        </div>
+      </section>
+
+    </main>
+</body>
+</html>
